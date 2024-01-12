@@ -12,7 +12,13 @@ function App() {
 			</div>
 			<div className="note">
 				<input type="text" className="note-title" placeholder="Title..." />
-				<input type="text" className="note-body" placeholder="Body..." />
+				<textarea
+					name="note-body"
+					id="note-body"
+					className="note-body"
+					cols="30"
+					rows="10"
+				></textarea>
 			</div>
 		</div>
 	);

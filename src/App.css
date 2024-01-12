@@ -1,5 +1,7 @@
 .body {
 	display: flex;
+	background-color: black;
+	color: white;
 }
 
 .sidebar {
@@ -19,7 +21,14 @@
 	padding: 20px;
 }
 
+.note-title {
+	background-color: black;
+	color: white;
+}
+
 .note-body {
 	margin-top: 20px;
 	height: 90vh;
+	background-color: black;
+	color: white;
 }
